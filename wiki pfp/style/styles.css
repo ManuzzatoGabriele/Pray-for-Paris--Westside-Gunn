@@ -1,0 +1,24 @@
+.text {
+    font-size: large;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    margin-right: 45%;
+}
+
+#scheda {
+
+    float: right;
+    border: 1px solid black;
+    margin-right: 2%;
+    padding: 20px;
+
+}
+
+#WestsideGunn {
+    font-size: large;
+    margin-left: 3%;
+
+}
+
+
