@@ -1,9 +1,14 @@
+#body {
+    background-color: #8d6b4f;
+    color: whitesmoke;
+}
+
 .text {
     font-size: large;
     margin-top: 1%;
     margin-bottom: 1%;
-    margin-left: 3%;
-    margin-right: 45%;
+    margin-left: 4%;
+    margin-right: 40%;
 }
 
 #scheda {
@@ -12,13 +17,61 @@
     border: 1px solid black;
     margin-right: 2%;
     padding: 20px;
+    background-color: #684c38;
+    color: whitesmoke;
 
 }
 
-#WestsideGunn {
+#WestsideGunn, #Griselda {
     font-size: large;
     margin-left: 3%;
 
+}
+
+#tracklist {
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+table {
+    width: 55%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    color: black;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: whitesmoke;
+    
+}
+
+td {
+    background-color: whitesmoke;
+}
+
+.intestazionetabella {
+
+    background-color: #684c38;
+    color: whitesmoke;
+}
+
+#immagine {
+    
+
+        float: right;
+        border: 1px solid black;
+        margin-right: 2%;
+        padding: 20px;
+        background-color: #684c38;
+        color: whitesmoke;
+        position: absolute;
+        margin-top: 40%;
 }
 
 
