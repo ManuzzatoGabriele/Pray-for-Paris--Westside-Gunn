@@ -22,9 +22,10 @@
 
 }
 
-#WestsideGunn, #Griselda {
+#WestsideGunn, #Griselda, #Background {
     font-size: large;
     margin-left: 3%;
+    margin-top: 5%;
 
 }
 
@@ -73,5 +74,7 @@ td {
         position: absolute;
         margin-top: 40%;
 }
+
+
 
 
