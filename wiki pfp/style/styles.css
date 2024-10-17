@@ -1,14 +1,31 @@
-#body {
+@font-face {
+    font-family: vouge;
+    src: url(../img/font/vogue/Vogue.ttf);
+}
+
+@font-face {
+    font-family: garet;
+    src: url(../img/font/garet/Garet-Book.ttf);
+}
+
+
+body {
     background-color: #8d6b4f;
     color: whitesmoke;
+    font-family: garet;
 }
 
 .text {
-    font-size: large;
+    
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: 4%;
     margin-right: 40%;
+}
+
+a {
+
+    color: blanchedalmond;
 }
 
 #scheda {
@@ -22,17 +39,19 @@
 
 }
 
-#WestsideGunn, #Griselda, #Background {
+.subtitle {
     font-size: large;
     margin-left: 3%;
     margin-top: 5%;
 
 }
 
-#tracklist {
+.hr_subtitle {
     margin-left: 3%;
-    margin-top: 3%;
+    width: 58%;
 }
+
+
 
 table {
     width: 55%;
@@ -54,6 +73,10 @@ th {
 
 td {
     background-color: whitesmoke;
+}
+
+.table_link {
+    color: #A77B5D
 }
 
 .intestazionetabella {
