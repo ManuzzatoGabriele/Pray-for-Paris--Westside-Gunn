@@ -17,7 +17,7 @@ body {
 .sidenav {
     height: 80%;
 
-    width: 8%;
+    width: 9%;
     position: fixed;
     background-color: #684c38;
     margin: 0;
@@ -32,12 +32,20 @@ body {
     font-size: small;
 }
 
+.sidenav_container {
+    margin-bottom: 23%;
+}
+
+.sidenav_element {
+    margin-left: 5%;
+}
+
 
 .main {
     background-color: #8d6b4f;
     color: whitesmoke;
     font-family: garet;
-    margin-left: 9%;
+    margin-left: 11%;
     height: 100%;
     padding: 3%;
 
