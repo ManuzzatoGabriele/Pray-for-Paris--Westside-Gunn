@@ -8,11 +8,39 @@
     src: url(../img/font/garet/Garet-Book.ttf);
 }
 
-
 body {
+    margin: 0;
+    margin-top:-3%;
+    background-color: #8d6b4f;
+}
+
+.sidenav {
+    height: 80%;
+
+    width: 8%;
+    position: fixed;
+    background-color: #684c38;
+    margin: 0;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 5%;
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-family: garet;
+    font-size: small;
+}
+
+
+.main {
     background-color: #8d6b4f;
     color: whitesmoke;
     font-family: garet;
+    margin-left: 9%;
+    height: 100%;
+    padding: 3%;
+
 }
 
 .text {
