@@ -33,7 +33,7 @@ body {
 }
 
 .sidenav_container {
-    margin-bottom: 23%;
+    margin-bottom: 20%;
 }
 
 .sidenav_element {
@@ -82,6 +82,13 @@ a {
 
 }
 
+.subtitle_sidenav {
+    font-size: 22px;
+    margin-left: 0%;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
 .hr_subtitle {
     margin-left: 3%;
     width: 58%;
@@ -94,6 +101,7 @@ table {
     margin-left: 4%;
     margin-bottom: 3%;
     color: black;
+    border-collapse: collapse;
 }
 table, th, td {
     border: 1px solid black;
@@ -112,7 +120,7 @@ td {
 }
 
 .table_link {
-    color: #A77B5D
+    color: #684c38
 }
 
 .intestazionetabella {
