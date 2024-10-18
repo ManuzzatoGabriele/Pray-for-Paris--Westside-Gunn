@@ -36,8 +36,20 @@ body {
     margin-bottom: 20%;
 }
 
+li {
+    margin-left: -20%;
+}
+
 .sidenav_element {
-    margin-left: 5%;
+    margin-left: 0%;
+}
+
+.h3_sidenav {
+    margin-left: 2%;
+    color: white;
+    font-size: small;
+    margin-top: 7%;
+    margin-bottom: 2%;
 }
 
 
@@ -72,6 +84,7 @@ a {
     padding: 20px;
     background-color: #684c38;
     color: whitesmoke;
+    border-radius: 15px;
 
 }
 
@@ -102,6 +115,9 @@ table {
     margin-bottom: 3%;
     color: black;
     border-collapse: collapse;
+    border: 1px solid black;
+    border-radius: 15px;
+    
 }
 table, th, td {
     border: 1px solid black;
@@ -140,6 +156,35 @@ td {
         color: whitesmoke;
         position: absolute;
         margin-top: 40%;
+}
+
+
+
+.list_item {
+    margin-left: -20%;
+    margin-bottom: 12%;
+}
+
+.subtitle_lyrics {
+    font-size: 22px;
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+
+pre {
+    margin-left: 3%;
+    font-size: 15px;
+}
+
+#back_button {
+    background-color: #8d6b4f ;
+    padding: 1px;
+    margin-top: 20%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+
 }
 
 
