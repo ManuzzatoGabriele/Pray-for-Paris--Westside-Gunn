@@ -1,3 +1,20 @@
+/* palette colori */
+
+:root {
+    --sfondo: #8d6b4f;
+    --sfondo_div: #684c38;
+    --border: black ;
+    --testo_base: whitesmoke;
+    --link_base:  blanchedalmond;
+}
+
+
+
+
+
+
+
+
 @font-face {
     font-family: vouge;
     src: url(../img/font/vogue/Vogue.ttf);
@@ -11,7 +28,7 @@
 body {
     margin: 0;
     margin-top:-3%;
-    background-color: #8d6b4f;
+    background-color: var(--sfondo);
 }
 
 .sidenav {
@@ -19,15 +36,15 @@ body {
 
     width: 9%;
     position: fixed;
-    background-color: #684c38;
+    background-color: var(--sfondo_div);
     margin: 0;
     margin-left: 1%;
     margin-right: 1%;
     margin-top: 5%;
     padding: 2%;
-    border: 1px solid black;
+    border: 1px solid var(--border);
     border-radius: 15px;
-    color: whitesmoke;
+    color: var(--testo_base);
     font-family: garet;
     font-size: small;
 }
@@ -46,7 +63,7 @@ li {
 
 .h3_sidenav {
     margin-left: 2%;
-    color: white;
+    color: var(--testo_base);
     font-size: small;
     margin-top: 7%;
     margin-bottom: 2%;
@@ -54,8 +71,8 @@ li {
 
 
 .main {
-    background-color: #8d6b4f;
-    color: whitesmoke;
+    background-color: var(--sfondo);
+    color: var(--testo_base);
     font-family: garet;
     margin-left: 11%;
     height: 100%;
@@ -73,17 +90,17 @@ li {
 
 a {
 
-    color: blanchedalmond;
+    color: var(--link_base);
 }
 
 #scheda {
 
     float: right;
-    border: 1px solid black;
+    border: 1px solid var(--border);
     margin-right: 2%;
     padding: 20px;
-    background-color: #684c38;
-    color: whitesmoke;
+    background-color: var(--sfondo_div);
+    color: var(--testo_base);
     border-radius: 15px;
 
 }
@@ -113,47 +130,46 @@ table {
     width: 55%;
     margin-left: 4%;
     margin-bottom: 3%;
-    color: black;
+    color: var(--border);
     border-collapse: collapse;
-    border: 1px solid black;
+    border: 1px solid var(--border);
     border-radius: 15px;
-    
 }
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid var(--border);
 }
 th, td {
     padding: 10px;
     text-align: left;
 }
 th {
-    background-color: whitesmoke;
+    background-color: var(--testo_base);
     
 }
 
 td {
-    background-color: whitesmoke;
+    background-color: var(--testo_base);
 }
 
 .table_link {
-    color: #684c38
+    color: var(--sfondo_div)
 }
 
 .intestazionetabella {
 
-    background-color: #684c38;
-    color: whitesmoke;
+    background-color: var(--sfondo_div);
+    color: var(--testo_base);
 }
 
 #immagine {
     
 
         float: right;
-        border: 1px solid black;
+        border: 1px solid var(--border);
         margin-right: 2%;
         padding: 20px;
-        background-color: #684c38;
-        color: whitesmoke;
+        background-color: var(--sfondo_div);
+        color: var(--testo_base);
         position: absolute;
         margin-top: 40%;
 }
@@ -178,11 +194,11 @@ pre {
 }
 
 #back_button {
-    background-color: #8d6b4f ;
+    background-color: var(--sfondo) ;
     padding: 1px;
     margin-top: 20%;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid var(--border);
     border-radius: 15px;
 
 }
