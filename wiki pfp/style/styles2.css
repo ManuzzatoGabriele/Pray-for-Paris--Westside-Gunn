@@ -1,11 +1,12 @@
 /* palette colori */
 
 :root {
-    --sfondo: #8d6b4f;
-    --sfondo_div: #684c38;
-    --border: black ;
-    --testo_base: whitesmoke;
-    --link_base:  blanchedalmond;
+    --sfondo: #1A1A1A;
+    --sfondo_div: #333333;
+    --border: #F2F2F2 ;
+    --testo_base: #F2F2F2;
+    --link_base:  #FFDB00;
+    --td_background: #BDBDBD;
 }
 
 
@@ -29,10 +30,24 @@ body {
     margin: 0;
     margin-top:-3%;
     background-color: var(--sfondo);
+
+
+}
+
+
+
+
+#dark_mode {
+    padding: 5px;
+    float: right;
+    background-color: var(--sfondo_div);
+    margin: 0;
+    
+
 }
 
 .sidenav {
-    height: 80%;
+    height: 82%;
 
     width: 9%;
     position: fixed;
@@ -130,7 +145,7 @@ table {
     width: 55%;
     margin-left: 4%;
     margin-bottom: 3%;
-    color: var(--border);
+    color: var(--sfondo);
     border-collapse: collapse;
     border: 1px solid var(--border);
     border-radius: 15px;
@@ -148,7 +163,7 @@ th {
 }
 
 td {
-    background-color: var(--testo_base);
+    background-color: var(--td_background);
 }
 
 .table_link {
