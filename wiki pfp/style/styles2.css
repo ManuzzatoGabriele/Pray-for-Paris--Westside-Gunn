@@ -250,5 +250,11 @@ video {
 }
 
 
+#link_nostyle {
+    text-decoration: none;
+    color: var(--testo_base);
+}
+
+
 
 
